@@ -48,7 +48,7 @@
 
 .headlineTextWrapper{
     max-width: 1080px;
-    padding: 120px 30px 30px 30px;
+    padding: 145px 30px 30px 30px;
     margin: 0 auto;
 }
 
@@ -57,7 +57,7 @@
     font-size: 4em;
     font-family: "calluna-sans","Open Sans","HelveticaNeue-Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-weight: 600;
-    line-height: 1.7em;
+    line-height: 1em;
     display: inline;
     overflow: hidden;
     color: #fff;
@@ -157,7 +157,7 @@
     font-family: "calluna-sans","Open Sans","HelveticaNeue-Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	font-size: 14px;
     font-weight: 500;
-	color: #414242;
+	color: #777;
 }
 
 .projectSoloImage img{
@@ -180,14 +180,14 @@
 
 .memberName{
     font-family: "calluna-sans","Open Sans","HelveticaNeue-Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-	font-size: 16px;
+	font-size: 20px;
     font-weight: 600;
 	color: #fff;
 }
 
 .memberRole{
     font-family: "calluna-sans","Open Sans","HelveticaNeue-Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-	font-size: 10px;
+	font-size: 12px;
     font-weight: 400;
 	color: #aac837;
 }
@@ -265,7 +265,7 @@
 	font-size: 40px;
     font-weight: 600;
 	color: #414242;
-    margin: 0px;
+    margin: 0px 0px 25px 0px;
 }
 
 .paragraphText{
@@ -273,7 +273,7 @@
     font-family: "calluna-sans","Open Sans","HelveticaNeue-Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	font-size: 16px;
     font-weight: 400;
-    color: #414242;
+    color: #777;
     margin: 0 auto;
     text-align: center;
 }
