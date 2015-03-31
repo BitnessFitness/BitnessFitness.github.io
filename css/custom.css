@@ -281,3 +281,13 @@
     margin: 0 auto;
     text-align: center;
 }
+
+#copyright{
+    background-color: #fff; 
+	font-family: "calluna-sans","Open Sans","HelveticaNeue-Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-size: 12px;
+	font-weight: 500;
+	color: #414242;
+	text-align: center;
+    padding: 20px 0px;
+}
