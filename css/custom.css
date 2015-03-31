@@ -3,6 +3,8 @@
 #navBar{
     background-color: #fff;
     height: 80px;
+    position: fixed;
+    z-index: 9999;
 }
 
 .bitnessLogo img{
@@ -44,6 +46,7 @@
     text-align: center;
     overflow: hidden;
     position: relative;
+    padding-top: 80px;
 }
 
 .headlineTextWrapper{
