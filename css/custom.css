@@ -2,7 +2,7 @@
 
 #navBar{
     background-color: #fff;
-    height: 80px;
+    height: 70px;
     position: fixed;
     z-index: 9999;
 }
@@ -37,7 +37,7 @@
 /*** --- Homepage Style --- ***/
 
 #homePageWrapper{
-    background-image: url("../images/fitness-resolution-products-featured.jpg");
+    background-image: url("../images/fitness-resolution-products.jpg");
     border-top: 1px solid #e9e9e9;
     height: 530px;
     background-repeat: no-repeat;
@@ -46,7 +46,7 @@
     text-align: center;
     overflow: hidden;
     position: relative;
-    padding-top: 80px;
+    padding-top: 70px;
 }
 
 .headlineTextWrapper{
@@ -74,7 +74,6 @@
     line-height: 1.7;
     font-weight: 400;
     padding-top: 0;
-    letter-spacing: 0.01em;
     color: #fff;
 }
 
@@ -122,11 +121,11 @@
 #bitnessPageIntro{
     background-color: #e9e9e9;
     text-align: center;
-    padding: 70px 0px;
+    padding: 60px 0px;
 }
 
 #bitnessFeatureSection{
-    padding: 70px 0px;
+    padding: 60px 0px;
     text-align: center;
 }
 
@@ -136,7 +135,7 @@
 }
 
 #bitnessFeaturesList ul{
-    padding: 0 0 70px 0;
+    padding: 0 0 50px 0;
 }
 
 .featWrapper{
@@ -145,7 +144,7 @@
 }
 
 .featImg{
-    margin-bottom: 15px;
+    margin-bottom: 18px;
 }
 
 .featTitle{
@@ -153,7 +152,7 @@
 	font-size: 20px;
     font-weight: 700;
 	color: #414242;
-    margin-bottom: 15px;
+    margin-bottom: 14px;
 }
 
 .featText{
@@ -161,6 +160,7 @@
 	font-size: 14px;
     font-weight: 500;
 	color: #777;
+    margin-bottom: 20px;
 }
 
 .projectSoloImage img{
@@ -170,7 +170,7 @@
 
 #bitnessTeamSection{
     background-color: #aac837;
-    padding: 70px 0px;
+    padding: 60px 0px;
 }
 
 #bitnessTeamList{
@@ -248,7 +248,7 @@
     font-weight: 600;
 	color: #414242;
     margin: 0px;
-    margin-bottom: 70px;
+    margin-bottom: 60px;
     text-align: center;
 }
 
@@ -259,7 +259,7 @@
     font-weight: 600;
 	color: #fff;
     margin: 0px;
-    margin-bottom: 70px;
+    margin-bottom: 60px;
     text-align: center;
 }
 
