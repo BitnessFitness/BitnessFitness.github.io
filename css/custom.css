@@ -1,5 +1,35 @@
-/*** --- Nav Bar Style --- ***/
+/* Small Size Screens Only */
+@media only screen and (max-width: 40em) {
+    .headlineTextWrapper{
+        padding: 120px 10px 30px 10px !important;
+    }
+    
+    .headlineTitle{
+        font-size: 34px !important;
+        line-height: 50px !important;
+    }
+    
+    .headlineText{
+        font-size: 18px !important;
+    }
+}
 
+/* Medium Size Screens Only */
+@media only screen and (min-width: 40.01em) and (max-width: 64em) {
+    .headlineTextWrapper{
+        padding: 140px 10px 30px 10px !important;
+    }
+    
+    .headlineTitle{
+        font-size: 42px !important;
+        line-height: 60px !important;
+    }
+    
+    .headlineText{
+        font-size: 22px !important;
+    }
+}
+/*** --- Nav Bar Style --- ***/
 #navBar{
     background-color: #fff;
     height: 70px;
@@ -57,7 +87,7 @@
 
 .headlineTitle{
     text-transform: none;
-    font-size: 4em;
+    font-size: 64px;
     font-family: "calluna-sans","Open Sans","HelveticaNeue-Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-weight: 600;
     line-height: 1em;
