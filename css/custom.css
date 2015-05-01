@@ -144,6 +144,10 @@
     font-weight: 600;
 }
 
+.spaceraceLogo{
+    padding: 0px 10px;
+}
+
 /*** Bitness Styles ***/
 
 .divider{
@@ -182,6 +186,7 @@
 }
 
 .featImg{
+    height: 100px;
     margin-bottom: 18px;
 }
 

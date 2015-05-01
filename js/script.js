@@ -1,7 +1,5 @@
 $(document).ready(function(){
-    $('.seeHow').click(function(){
-        scrollToElement('#bitnessPageIntro',1000, -50);
-    });
+    
 });
 
 function scrollToElement(selector, time, verticalOffset) {
