@@ -37,7 +37,14 @@
                 <img src="images/spaceraceLogo.png">
             </div>
             <p class="headlineText">Bitness presents Space Race, a fitness installation designed for ImagineRIT.</p>
-            <a class="seeHow">LEARN MORE</a>
+            <a class="seeHow" data-reveal-id="spaceRaceVideo">LEARN MORE</a>
+            <div id="spaceRaceVideo" class="reveal-modal large" data-reveal aria-labelledby="spaceRaceVideoTitle" aria-hidden="true" role="dialog">
+              <h2 id="spaceRaceVideoTitle">Bitness: Space Race</h2>
+                  <div class="flex-video widescreen vimeo">
+                    <iframe src="https://player.vimeo.com/video/126091504?color=ffffff&byline=0" width="1160" height="653" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                  </div>
+              <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+            </div>
         </div>
     </div>
     <!-- END HOME PAGE SECTION -->
@@ -69,7 +76,7 @@
                     <div class="small-12 small-centered medium-10 medium-centered large-10 large-centered columns">
                         <h4 class="pageTitleBlack">Why Space Race?</h4>
                         <p class="paragraphText">
-                            Space Race is an installation designed for ImagineRIT, an innovation and creativity festival. It takes the core experience of Bitness and builds a family-friendly group exercise experience that all ages can enjoy. Compete with and against other participants in a friendly race to outer space!
+                            Space Race at Imagine RIT provides us with the unique opportunity to show how fun and easy it can be to improve the daily lives of our friends and family. Together we can achieve this by creating a strong health conscious community that is inspired and motivated to live a healthy life through fun and interaction.  
                         </p>
                     </div>
                 </div>
@@ -214,10 +221,12 @@
     </footer>
     <!-- END FOOTER -->
     </body>
-    <script src="foundation-5.5.1/js/foundation/foundation.js"></script>
-    <script src="foundation-5.5.1/js/vendor/jquery.js"></script>
+    <script type="text/javascript" src="foundation-5.5.1/js/vendor/jquery.js"></script>
+    <script type="text/javascript" src="foundation-5.5.1/js/foundation/foundation.js"></script>     
+    <script type="text/javascript" src="foundation-5.5.1/js/foundation/foundation.reveal.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
     <script>
+        $(document).foundation('reveal','reflow');
         new WOW().init();
     </script>
 </html>

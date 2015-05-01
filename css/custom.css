@@ -137,6 +137,13 @@
     transition: background-color .3s;
 }
 
+#spaceRaceVideoTitle{
+    font-family: "calluna-sans","Open Sans","HelveticaNeue-Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    color: #414242;
+    font-size: 28px;
+    font-weight: 600;
+}
+
 /*** Bitness Styles ***/
 
 .divider{
